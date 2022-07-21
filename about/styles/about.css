@@ -1,0 +1,67 @@
+#about{
+    border: 1px solid;
+    background-color: #ee9dab;
+    display: grid;
+    justify-content: center;;
+}
+
+/* #about>div{
+    border: 1px solid;
+} */
+
+#about img{
+    margin-bottom: 4rem;
+}
+
+#about h1{
+    font-weight: bolder;
+    letter-spacing: -1.5px;
+    margin-top: 3rem;
+    margin-bottom: 1.875rem;
+    font-size: 48px;
+    text-align: center;
+}
+
+#ps{
+    padding: 70px;
+    border: 1px solid;
+}
+
+#ps p{
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.9;
+    margin: auto;
+    border: 1px solid;
+    width: 50%;
+}
+
+#read{
+    border: 1px solid;
+    padding: 20px;
+    display: grid;
+    justify-content: center; 
+}
+
+#read button{
+    text-align: center;
+    padding: 10px;
+    display: block;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#mates{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-image: url("");
+}
+#mates h2{
+    font-size: 50px;
+}
+
+*{
+    text-align: center;
+    font-family: roboto, arial, helvetica, sans-serif;
+}
