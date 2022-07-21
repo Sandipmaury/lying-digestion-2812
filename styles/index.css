@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top{
+    margin-top: 20% ;
+    display: flex;
+    width: 100%;
+    /* border: 5px solid red; */
+    height: 600px;
+}
+
+#top1{
+    width: 45%;
+    margin: 90px;
+    margin-top: 0px;
+    font-size: 35px;
+    height: auto;
+    /* border: 1px solid red; */
+}
+
+#top2{
+    width: 45%;
+
+    /* border: 5px solid green; */
+}
+
+#top1>h3{
+    font-size: 30px;
+}
+
+#get_started{
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 25px 35px;
+    color: white;
+    border-radius: 10px;
+    background-color:#2c4bff;
+}
+
+#top_ke_bad_wala{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    height: 100px;
+    /* border: 1px solid red; */
+}
+
+#top_ke_bad_wala>div{
+    margin: auto;
+    width: 100%;
+    /* border: 2px solid blue; */
+}
+
+#top_ke_bad_wala>div>img{
+    
+    width: 150px;
+    background-color: white;
+}
+
+#craft{
+    width: 36%;
+    margin: auto;
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: x-large;
+    font-family: sans-serif;
+    margin-top: 10%;
+}
+
+#plan{
+    width: 40%;
+    margin: auto;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 3%;
+}
+
+#publishing_img{
+    width: 85%;
+    margin: auto;
+    margin-top: 3%;
+    /* border: 1px solid red; */
+}
+
+#publishing_img>img{
+    width: 100%;
+    
+}
