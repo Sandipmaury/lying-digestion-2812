@@ -6,6 +6,7 @@ body{
 #footer{
     padding: 0px 35px;
     margin: auto;
+    margin-top: 30px;
     /* border: 1px solid black; */
 }
 #container-M{
@@ -37,6 +38,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
 }
 button>img{
     width: 10%;
