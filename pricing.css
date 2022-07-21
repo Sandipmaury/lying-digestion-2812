@@ -384,3 +384,126 @@ td {
   color: #1d37c7;
   border-radius: 10px;
 }
+
+/* section -5 */
+.section5 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 60% 1fr;
+  grid-template-rows: 600px;
+  background-color: #2c4bff;
+}
+
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainDiv > div {
+  width: 50%;
+  text-align: center;
+}
+
+.mainDiv > div > h1 {
+  font-size: 35px;
+  color: white;
+}
+
+.mainDivBtn {
+  cursor: pointer;
+  padding: 25px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #e97284;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.mainDivBtn:hover {
+  background-color: #d25e70;
+}
+.mainDiv > div > ul {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.leftDiv {
+  position: relative;
+  overflow: hidden;
+}
+
+.leftDiv :nth-child(1) {
+  height: 40px;
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+.leftDiv :nth-child(2) {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: 150px;
+  left: -100px;
+}
+
+.leftDiv :nth-child(2) > img {
+  width: 100%;
+  height: 100%;
+}
+
+.leftDiv :nth-child(3) {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+}
+
+.leftDiv :nth-child(3) > img {
+  height: 100%;
+}
+
+.rightDiv {
+  position: relative;
+  overflow: hidden;
+}
+
+.rightDiv :nth-child(1) {
+  height: 40px;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+.rightDiv :nth-child(2) {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: 60px;
+  right: 70px;
+}
+
+.rightDiv :nth-child(2) > img {
+  width: 100%;
+  height: 100%;
+}
+
+.rightDiv :nth-child(3) {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 240px;
+  left: 160px;
+}
+
+.rightDiv :nth-child(3) > img {
+  height: 100%;
+}
