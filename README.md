@@ -2,11 +2,11 @@
 
 Clone of buffer.com
 
-Team Lead: Sandip Maury
-Team Members: Sandip Maury, Priyanshu(Siddharth), Mayuri Saha, Digvijay Singh.
+Team Lead: Sandip Maurya
+Team Members: Sandip Maurya, Priyanshu(Siddharth), Mayuri Saha, Digvijay Singh.
 
 Responsibilities:
-Sandip Maury: Pricing Page
+Sandip Maurya: Pricing Page, blog page
 Mayuri Saha: Landing Page
 Priyanshu: Login-Signup Functionality
 Digvijay Singh: Publishing and Analytics under Tools
