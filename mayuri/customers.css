@@ -1,0 +1,476 @@
+body{
+    font-family: Roboto, sans-serif;
+font-size: 1rem;
+letter-spacing: 0.1px;
+}
+
+#customer_cont{
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid blue; */
+}
+#customer_body1{
+    width: 50%;
+    margin: auto;
+    padding: 80px;
+ /* border: 1px solid black;  */
+}
+#customer_body1>div{
+    text-transform: uppercase;
+font-weight: 700;
+margin: auto;
+margin-bottom: 20px;
+letter-spacing: 0.5px;
+}
+#customer_body1>div>p{
+text-align: center;
+color: rgb(44, 75, 255);
+font-size: 16px;
+letter-spacing: 0.5px;
+}
+#customer_body1>h1{
+    margin: auto;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: calc(1.375rem + (1vw - 3.75px) * 1.6901);
+    line-height: calc(2rem + (1vw - 3.75px) * 2.2535);
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+#customer_body1>p:last-child{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+letter-spacing: 0.1px;
+font-size: 20px;
+line-height: 1.8;
+}
+#customer_body2{
+    margin: auto;
+    width: 55%;
+    /* border: 1px solid red; */
+}
+#customer_body2>div{
+    text-align: center;
+    padding: 60px;
+    margin: 24px auto;
+    border-width: 5px;
+    background: linear-gradient(white, white) no-repeat padding-box, linear-gradient(to right, rgb(120, 86, 255), rgb(101, 185, 255)) border-box;
+    border-style: solid;
+    border-color: transparent;
+}
+#customer_body2>div>img{
+    height: 40px;
+    width: 300px;
+}
+#customer_body2>div>p{
+    margin:24px auto;
+    text-align: center;
+    color: rgb(61, 61, 61);
+font-size: 24px;
+line-height: 1.8;
+letter-spacing: 0.1px;
+width: 650px;
+}
+#customer_body2>div>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: blue;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
+#customer_body2>div>a:hover{
+    text-decoration: underline;
+}
+#customer_body2>div>a>img{
+    width: 5%;
+}
+#imgin{
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#imgin>img{
+    width: 48px;
+    height: 48px;
+}
+#imgin>p{
+    color: rgb(155, 155, 155);
+    font-size: 16px;
+}
+#customer_body3{
+    margin: auto;
+    width: 55%;
+    /* border: 1px solid red; */
+}
+#customer_body3>div{
+    text-align: center;
+    padding: 60px;
+    margin: 24px auto;
+    border-width: 5px;
+    background: linear-gradient(white, white) no-repeat padding-box, linear-gradient(to right, rgb(224, 54, 79), rgb(255, 112, 44)) border-box;
+    border-style: solid;
+    border-color: transparent;
+}
+#customer_body3>div>img{
+    height: 40px;
+    width: 100px;
+}
+#customer_body3>div>p{
+    margin:24px auto;
+    text-align: center;
+    color: rgb(61, 61, 61);
+font-size: 24px;
+line-height: 1.8;
+letter-spacing: 0.1px;
+width: 650px;
+}
+#customer_body3>div>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: blue;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
+#customer_body3>div>a:hover{
+    text-decoration: underline;
+}
+#customer_body3>div>a>img{
+    width: 5%;
+}
+/*  */
+#customer_body4{
+    margin: auto;
+    width: 55%;
+    /* border: 1px solid red; */
+}
+#customer_body4>div{
+    text-align: center;
+    padding: 60px;
+    margin: 24px auto;
+    border-width: 5px;
+    background: linear-gradient(white, white) no-repeat padding-box, linear-gradient(to right, rgb(255, 112, 44), rgb(252, 232, 106)) border-box;
+    border-style: solid;
+    border-color: transparent;
+}
+#customer_body4>div>img{
+    height: 60px;
+    width: 100px;
+}
+#customer_body4>div>p{
+    margin:24px auto;
+    text-align: center;
+    color: rgb(61, 61, 61);
+font-size: 24px;
+line-height: 1.8;
+letter-spacing: 0.1px;
+width: 650px;
+}
+#customer_body4>div>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: blue;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
+#customer_body4>div>a:hover{
+    text-decoration: underline;
+}
+#customer_body4>div>a>img{
+    width: 5%;
+}
+
+/*  */
+#customer_body5{
+    margin: auto;
+    width: 55%;
+    /* border: 1px solid red; */
+}
+#customer_body5>div{
+    text-align: center;
+    padding: 60px;
+    margin: 24px auto;
+    border-width: 5px;
+    background: linear-gradient(white, white) no-repeat padding-box, linear-gradient(to right, rgb(44, 75, 255), rgb(186, 107, 255)) border-box;
+    border-style: solid;
+    border-color: transparent;
+}
+#customer_body5>div>img{
+    height: 40px;
+    width: 200px;
+}
+#customer_body5>div>p{
+    margin:24px auto;
+    text-align: center;
+    color: rgb(61, 61, 61);
+font-size: 24px;
+line-height: 1.8;
+letter-spacing: 0.1px;
+width: 650px;
+}
+#customer_body5>div>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: blue;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
+#customer_body5>div>a:hover{
+    text-decoration: underline;
+}
+#customer_body5>div>a>img{
+    width: 5%;
+}
+/*  */
+#customer_body6{
+    margin: auto;
+    width: 55%;
+    /* border: 1px solid red; */
+}
+#customer_body6>div{
+    text-align: center;
+    padding: 60px;
+    margin: 24px auto;
+    border-width: 5px;
+    background: linear-gradient(white, white) no-repeat padding-box, linear-gradient(to right, rgb(224, 54, 79), rgb(255, 112, 44)) border-box;
+    border-style: solid;
+    border-color: transparent;
+}
+#customer_body6>div>img{
+    height: 70px;
+    width: 110px;
+}
+#customer_body6>div>p{
+    margin:24px auto;
+    text-align: center;
+    color: rgb(61, 61, 61);
+font-size: 24px;
+line-height: 1.8;
+letter-spacing: 0.1px;
+width: 650px;
+}
+#customer_body6>div>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: blue;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
+#customer_body6>div>a:hover{
+    text-decoration: underline;
+}
+#customer_body6>div>a>img{
+    width: 5%;
+}
+/*  */
+#customer_body7{
+    margin: auto;
+    width: 55%;
+    /* border: 1px solid red; */
+}
+#customer_body7>div{
+    text-align: center;
+    padding: 60px;
+    margin: 24px auto;
+    border-width: 5px;
+    background: linear-gradient(white, white) no-repeat padding-box, linear-gradient(to right, rgb(0, 200, 207), rgb(153, 233, 236)) border-box;
+    border-style: solid;
+    border-color: transparent;
+}
+#customer_body7>div>img{
+    height: 80px;
+    width: 110px;
+}
+#customer_body7>div>p{
+    margin:24px auto;
+    text-align: center;
+    color: rgb(61, 61, 61);
+font-size: 24px;
+line-height: 1.8;
+letter-spacing: 0.1px;
+width: 650px;
+}
+#customer_body7>div>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: blue;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
+#customer_body7>div>a:hover{
+    text-decoration: underline;
+}
+#customer_body7>div>a>img{
+    width: 5%;
+}
+/*  */
+#customer_body8{
+    margin: auto;
+    width: 55%;
+    /* border: 1px solid red; */
+}
+#customer_body8>div{
+    text-align: center;
+    padding: 60px;
+    margin: 24px auto;
+    border-width: 5px;
+    background: linear-gradient(white, white) no-repeat padding-box, linear-gradient(to right, rgb(120, 86, 255), rgb(101, 185, 255)) border-box;
+    border-style: solid;
+    border-color: transparent;
+}
+#customer_body8>div>img{
+    height: 80px;
+    width: 110px;
+}
+#customer_body8>div>p{
+    margin:24px auto;
+    text-align: center;
+    color: rgb(61, 61, 61);
+font-size: 24px;
+line-height: 1.8;
+letter-spacing: 0.1px;
+width: 650px;
+}
+#customer_body8>div>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: blue;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
+#customer_body8>div>a:hover{
+    text-decoration: underline;
+}
+#customer_body8>div>a>img{
+    width: 5%;
+}
+/*  */
+#customer_body9{
+    margin: auto;
+    width: 55%;
+    /* border: 1px solid red; */
+}
+#customer_body9>div{
+    text-align: center;
+    padding: 60px;
+    margin: 24px auto;
+    border-width: 5px;
+    background: linear-gradient(white, white) no-repeat padding-box, linear-gradient(to right, rgb(255, 112, 44), rgb(252, 232, 106)) border-box;
+    border-style: solid;
+    border-color: transparent;
+}
+#customer_body9>div>img{
+    height: 60px;
+    width: 200px;
+}
+#customer_body9>div>p{
+    margin:24px auto;
+    text-align: center;
+    color: rgb(61, 61, 61);
+font-size: 24px;
+line-height: 1.8;
+letter-spacing: 0.1px;
+width: 650px;
+}
+#customer_body9>div>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: blue;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
+#customer_body9>div>a:hover{
+    text-decoration: underline;
+}
+#customer_body9>div>a>img{
+    width: 5%;
+}
+#imgimg{
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    width: 27%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#imgimg>img{
+    width: 48px;
+    height: 48px;
+}
+#imgimg>p{
+    color: rgb(155, 155, 155);
+    font-size: 16px;
+}
+/*  */
+
+#customer_body10{
+    margin: auto;
+    width: 55%;
+    /* border: 1px solid red; */
+}
+#customer_body10>div{
+    text-align: center;
+    padding: 60px;
+    margin: 24px auto;
+    border-width: 5px;
+    background: linear-gradient(white, white) no-repeat padding-box, linear-gradient(to right, rgb(0, 200, 207), rgb(153, 233, 236)) border-box;
+    border-style: solid;
+    border-color: transparent;
+}
+#customer_body10>div>img{
+    height: 40px;
+    width: 200px;
+}
+#customer_body10>div>p{
+    margin:24px auto;
+    text-align: center;
+    color: rgb(61, 61, 61);
+font-size: 24px;
+line-height: 1.8;
+letter-spacing: 0.1px;
+width: 650px;
+}
+#customer_body10>div>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: blue;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
+#customer_body10>div>a:hover{
+    text-decoration: underline;
+}
+#customer_body10>div>a>img{
+    width: 5%;
+}
