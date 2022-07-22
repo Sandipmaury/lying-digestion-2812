@@ -56,7 +56,7 @@ const monthly = () => {
     <div>
         <p>Billed monthly </p>
     </div>
-    <button>Get Started</button>
+    <button>Try free for 14-days</button>
     <div>
         <span class="material-symbols-outlined">
             done
@@ -218,7 +218,7 @@ const yearly = () => {
         <p class="dollerBoxPDecoretion">$72</p>
         <p class="dollerBoxP"> $60/year</p>
     </div>
-    <button>Get Started</button>
+    <button>Try free for 14-days</button>
     <div>
         <span class="material-symbols-outlined">
             done
