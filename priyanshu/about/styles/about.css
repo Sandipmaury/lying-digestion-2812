@@ -1,279 +1,279 @@
 #about {
-    border: 1px solid transparent;
-    background-color: #ee9dab;
-    display: grid;
-    justify-content: center;
-    margin-top: 80px;
+	border: 1px solid transparent;
+	background-color: #ee9dab;
+	display: grid;
+	justify-content: center;
+	margin-top: 80px;
 }
 
 #about img {
-    margin-bottom: 4rem;
+	margin-bottom: 4rem;
 }
 
 #about h1 {
-    font-weight: bolder;
-    letter-spacing: -1.5px;
-    margin-top: 3rem;
-    margin-bottom: 1.875rem;
-    font-size: 48px;
-    text-align: center;
+	font-weight: bolder;
+	letter-spacing: -1.5px;
+	margin-top: 3rem;
+	margin-bottom: 1.875rem;
+	font-size: 48px;
+	text-align: center;
 }
 
 #ps {
-    padding: 70px;
-    border: 1px solid transparent;
+	padding: 70px;
+	border: 1px solid transparent;
 }
 
 #ps p {
-    text-align: left;
-    font-size: 22px;
-    line-height: 1.9;
-    margin: auto;
-    border: 1px solid transparent;
-    width: 50%;
+	text-align: left;
+	font-size: 22px;
+	line-height: 1.9;
+	margin: auto;
+	border: 1px solid transparent;
+	width: 50%;
 }
 
 #read {
-    padding: 20px;
-    display: grid;
-    justify-content: center;
+	padding: 20px;
+	display: grid;
+	justify-content: center;
 }
 
 #read button {
-    text-align: center;
-    border: none;
-    background-color: blue;
-    color: white;
-    padding: 12px 22px;
-    display: block;
-    font-size: 18px;
-    border-radius: 5px;
+	text-align: center;
+	border: none;
+	background-color: blue;
+	color: white;
+	padding: 12px 22px;
+	display: block;
+	font-size: 18px;
+	border-radius: 5px;
 }
 
 #read button:hover {
-    background-color: darkblue;
-    cursor: pointer;
+	background-color: darkblue;
+	cursor: pointer;
 }
 
 #mates {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 30px;
-    background-image: url("");
-    border: 1px solid transparent;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 30px;
+	background-image: url("");
+	border: 1px solid transparent;
 }
 
 #mates h2 {
-    font-weight: 800;
-    font-family: sans-serif;
-    width: 62%;
-    font-size: 72px;
-    margin: auto;
+	font-weight: 800;
+	font-family: sans-serif;
+	width: 62%;
+	font-size: 72px;
+	margin: auto;
 }
 
 #mates p {
-    width: 50%;
-    margin: auto;
-    font-size: 24px;
+	width: 50%;
+	margin: auto;
+	font-size: 24px;
 }
 
 #brands {
-    width: 60%;
-    margin: auto;
-    display: grid;
-    gap: 70px 0px;
-    grid-template-columns: repeat(4, 1fr);
+	width: 60%;
+	margin: auto;
+	display: grid;
+	gap: 70px 0px;
+	grid-template-columns: repeat(4, 1fr);
 }
 
 #brands>div {
-    display: grid;
-    align-items: center;
-    padding: 5px;
+	display: grid;
+	align-items: center;
+	padding: 5px;
 
 }
 
 .h2 {
-    border: 1px solid transparent;
-    width: 55%;
-    margin: auto;
-    font-size: 35px;
-    margin-top: 100px;
-    margin-bottom: 70px;
-    font-weight: 600;
+	border: 1px solid transparent;
+	width: 55%;
+	margin: auto;
+	font-size: 35px;
+	margin-top: 100px;
+	margin-bottom: 70px;
+	font-weight: 600;
 }
 
 
 #brands>div>svg {
-    margin: auto;
+	margin: auto;
 }
 
 * {
-    text-align: center;
-    font-family: roboto, arial, helvetica, sans-serif;
+	text-align: center;
+	font-family: roboto, arial, helvetica, sans-serif;
 }
 
 .pink {
-    color: #e97284;
+	color: #e97284;
 }
 
 .yellow {
-    color: #fad32a;
+	color: #fad32a;
 }
 
 .green {
-    color: #87c221;
+	color: #87c221;
 }
 
 #values h2 {
-    font-size: 32px;
-    border: 1px solid transparent;
-    width: 45%;
-    text-align: left;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 35px;
+	font-size: 32px;
+	border: 1px solid transparent;
+	width: 45%;
+	text-align: left;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 35px;
 }
 
 #values p {
-    font-size: 21.2px;
-    border: 1px solid transparent;
-    width: 45%;
-    line-height: 1.9;
-    text-align: justify;
-    margin: auto;
+	font-size: 21.2px;
+	border: 1px solid transparent;
+	width: 45%;
+	line-height: 1.9;
+	text-align: justify;
+	margin: auto;
 }
 
 .flex {
-    display: flex;
-    align-items: flex-start;
-    width: 45%;
-    font-size: 18px;
-    font-weight: 800;
-    margin: auto;
-    cursor: pointer;
-    border: 1px solid transparent;
+	display: flex;
+	align-items: flex-start;
+	width: 45%;
+	font-size: 18px;
+	font-weight: 800;
+	margin: auto;
+	cursor: pointer;
+	border: 1px solid transparent;
 }
 
 .bgi {
-    display: block;
-    background-image: url("https://buffer.com/static/team/team-panorama.jpg");
-    width: 100%;
-    height: 520px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    overflow: hidden;
-    margin-top: 110px;
-    margin-bottom: 110px;
+	display: block;
+	background-image: url("https://buffer.com/static/team/team-panorama.jpg");
+	width: 100%;
+	height: 520px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+	margin-top: 110px;
+	margin-bottom: 110px;
 }
 
 
 #transparency>h2 {
-    font-size: 34px;
-    font-weight: 800;
-    border: 1px solid transparent;
-    text-align: left;
-    width: 50%;
-    margin: auto;
+	font-size: 34px;
+	font-weight: 800;
+	border: 1px solid transparent;
+	text-align: left;
+	width: 50%;
+	margin: auto;
 }
 
 #transparency>p {
-    font-size: 21.2px;
-    line-height: 1.9;
-    border: 1px solid transparent;
-    width: 50%;
-    text-align: left;
-    margin: auto;
-    margin-top: 50px;
+	font-size: 21.2px;
+	line-height: 1.9;
+	border: 1px solid transparent;
+	width: 50%;
+	text-align: left;
+	margin: auto;
+	margin-top: 50px;
 }
 
 #transparency>div {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: space-between;
-    margin: auto;
-    text-decoration: none;
-    margin-top: 80px;
-    width: 80%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-content: space-between;
+	margin: auto;
+	text-decoration: none;
+	margin-top: 80px;
+	width: 80%;
 }
 
 #transparency>div div {
-    display: grid;
-    /* border: 1px solid; */
-    align-items: left;
-    color: black;
+	display: grid;
+	/* border: 1px solid; */
+	align-items: left;
+	color: black;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 #transparency>div div:hover {
-    opacity: 100;
+	opacity: 100;
 }
 
 a h4,
 a p {
-    text-align: left;
+	text-align: left;
 }
 
 a:hover {
-    color: blue;
+	color: blue;
 }
 
 .hide {
-    /* opacity: 0; */
-    transition: opacity 125ms ease-out 0s;
-    color: rgb(44, 75, 255);
+	/* opacity: 0; */
+	transition: opacity 125ms ease-out 0s;
+	color: rgb(44, 75, 255);
 }
 
 .hide:hover {
-    text-decoration: underline;
-    line-height: 1.9;
-    display: flex;
-    gap: 20px;
-    font-size: 16px;
-    text-underline-offset: 4px;
-    opacity: 100;
-    transition: opacity 125ms ease-out 0s;
-    color: blue;
+	text-decoration: underline;
+	line-height: 1.9;
+	display: flex;
+	gap: 20px;
+	font-size: 16px;
+	text-underline-offset: 4px;
+	opacity: 100;
+	transition: opacity 125ms ease-out 0s;
+	color: blue;
 }
 
 .hide svg {
-    transition: transform 125ms ease-out 0s;
-    height: 20px;
-    width: 20px;
-    fill: none;
-    stroke: currentcolor;
+	transition: transform 125ms ease-out 0s;
+	height: 20px;
+	width: 20px;
+	fill: none;
+	stroke: currentcolor;
 }
 
 #last h2 {
-    font-size: 34px;
-    border: 1px solid transparent;
-    width: 50%;
-    text-align: left;
-    margin: auto;
-    margin-top: 80px;
+	font-size: 34px;
+	border: 1px solid transparent;
+	width: 50%;
+	text-align: left;
+	margin: auto;
+	margin-top: 80px;
 }
 
 #last p {
-    border: 1px solid transparent;
-    width: 50%;
-    margin: auto;
-    text-align: left;
-    line-height: 1.9;
-    margin-top: 50px;
-    font-size: 21.9px;
+	border: 1px solid transparent;
+	width: 50%;
+	margin: auto;
+	text-align: left;
+	line-height: 1.9;
+	margin-top: 50px;
+	font-size: 21.9px;
 }
 
 #last>div>div:last-child {
-    margin-top: 60px;
-    margin-bottom: 60px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
 #last a {
-    border-radius: 5px;
-    border: 1px solid blue;
-    padding: 12px 30px;
-    color: blue;
+	border-radius: 5px;
+	border: 1px solid blue;
+	padding: 12px 30px;
+	color: blue;
 }
