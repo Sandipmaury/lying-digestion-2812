@@ -7,7 +7,7 @@ const navvbar = () => {
 <div>
     <div class="dropdown">
         <!--<div><span class="tools"><a href="http://">Tools</a></span>  -->
-            <div id="block"><a href="http://">Tools</a></div>
+            <div id="block"><a href="index.html">Tools</a></div>
         <div class="dropdown-content">
             <div class="icon2">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnCXksTKNhXMhvGV-a2RWNbtFkVsyp130SzQ&usqp=CAU" alt="error">
