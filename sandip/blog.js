@@ -112,7 +112,7 @@ for (let {
 </div>`;
 }
 
-document.getElementById("searchBox").addEventListener("click", () => {
+document.querySelector("#searchBox > span").addEventListener("click", () => {
   document.getElementById("searchDiv").style.visibility = "visible";
   document.body.style.opacity = "0.8";
   document.getElementById("searchDiv").style.opacity = "1";
@@ -122,3 +122,144 @@ document.getElementById("close").addEventListener("click", () => {
   document.getElementById("searchDiv").style.visibility = "hidden";
   document.body.style.opacity = "1";
 });
+
+// section 5 data and functionality
+
+let section5ArticleData = [
+  {
+    image:
+      "https://buffer.com/resources/content/images/size/w600/2022/07/alevision-co-LtsrNWZ6LYM-unsplash.jpg",
+    title:
+      "Ask Buffer: Will Scheduling My Social Media Posts Affect My Engagement?",
+    description:
+      "There's a myth that using third-party scheduling tools will reduce your engagement. This article presents the existing research that debunks this and advice for boosting your engagement.",
+    writer: "Tamilore Oladipo",
+    date: "Jul 14, 2022",
+    readTime: " 4 min read",
+    resoueces: "Flow",
+    writerImg:
+      "https://buffer.com/resources/content/images/size/w100/2022/03/B6060E07-7A0E-4C6C-82EE-C654EA065314_1_102_o.jpeg",
+  },
+  {
+    image:
+      "https://buffer.com/resources/content/images/size/w600/2022/07/Header-1--1-.jpeg",
+    title:
+      "Ask Buffer: Will Scheduling My Social Media Posts Affect My Engagement?",
+    description:
+      "There's a myth that using third-party scheduling tools will reduce your engagement. This article presents the existing research that debunks this and advice for boosting your engagement.",
+    writer: "Tamilore Oladipo",
+    date: "Jul 14, 2022",
+    readTime: " 4 min read",
+    resoueces: "Flow",
+    writerImg:
+      "https://buffer.com/resources/content/images/size/w30/2022/05/Headshots-on-brand-colors-2.png",
+  },
+  {
+    image:
+      "https://buffer.com/resources/content/images/size/w600/2022/06/mercedes-mehling-SKLSceAHpR0-unsplash.jpg",
+    title:
+      "Ask Buffer: Will Scheduling My Social Media Posts Affect My Engagement?",
+    description:
+      "There's a myth that using third-party scheduling tools will reduce your engagement. This article presents the existing research that debunks this and advice for boosting your engagement.",
+    writer: "Tamilore Oladipo",
+    date: "Jul 14, 2022",
+    readTime: " 4 min read",
+    resoueces: "Flow",
+    writerImg:
+      "https://buffer.com/resources/content/images/size/w30/2022/06/Katie_G.png",
+  },
+  {
+    image:
+      "https://buffer.com/resources/content/images/size/w600/2022/06/olga-thelavart-RyrFRsVoe2Q-unsplash.jpg",
+    title:
+      "Ask Buffer: Will Scheduling My Social Media Posts Affect My Engagement?",
+    description:
+      "There's a myth that using third-party scheduling tools will reduce your engagement. This article presents the existing research that debunks this and advice for boosting your engagement.",
+    writer: "Tamilore Oladipo",
+    date: "Jul 14, 2022",
+    readTime: " 4 min read",
+    resoueces: "Flow",
+    writerImg:
+      "https://buffer.com/resources/content/images/size/w30/2020/07/Hailley.png",
+  },
+  {
+    image:
+      "https://buffer.com/resources/content/images/size/w600/2022/06/tiktok-scheduling.jpg",
+    title:
+      "Ask Buffer: Will Scheduling My Social Media Posts Affect My Engagement?",
+    description:
+      "There's a myth that using third-party scheduling tools will reduce your engagement. This article presents the existing research that debunks this and advice for boosting your engagement.",
+    writer: "Tamilore Oladipo",
+    date: "Jul 14, 2022",
+    readTime: " 4 min read",
+    resoueces: "Flow",
+    writerImg:
+      "https://buffer.com/resources/content/images/size/w30/2021/08/mike_e.png",
+  },
+  {
+    image:
+      "https://buffer.com/resources/content/images/size/w600/2022/06/igor-jSFQvSOmU44-unsplash.jpg",
+    title:
+      "Ask Buffer: Will Scheduling My Social Media Posts Affect My Engagement?",
+    description:
+      "There's a myth that using third-party scheduling tools will reduce your engagement. This article presents the existing research that debunks this and advice for boosting your engagement.",
+    writer: "Tamilore Oladipo",
+    date: "Jul 14, 2022",
+    readTime: " 4 min read",
+    resoueces: "Flow",
+    writerImg:
+      "https://buffer.com/resources/content/images/size/w30/2022/06/Diego.png",
+  },
+];
+const borderBottom = (newId) => {
+  const btn = document.querySelectorAll("#buttons > p");
+  for (let { id } of btn) {
+    document.getElementById(id).style.border = "none";
+  }
+  document.getElementById(newId).style.borderBottom = "2px solid blue";
+};
+
+const displayData = (event) => {
+  if (event) borderBottom(event.target.id);
+  else document.getElementById("btn1").style.borderBottom = "2px solid blue";
+  document.querySelector("#articles").innerHTML = null;
+  for (let {
+    image,
+    title,
+    description,
+    writer,
+    date,
+    readTime,
+    resoueces,
+    writerImg,
+  } of section5ArticleData) {
+    document.querySelector("#articles").innerHTML += `<div>
+    <div>
+    <img src=${image} alt="">
+    <div class="pblictn">
+        <p>Publication</p>
+        <span class="material-symbols-outlined">
+            chevron_right
+        </span>
+        <p>flow</p>
+    </div>
+    <h3>${title}</h3>
+    <ul class="contentData" type="none">
+        <li>${date}</li>
+        <li>${readTime}</li>
+        <li>${resoueces}</li>
+    </ul>
+    <p>${description}</p>
+    </div>
+    <div class="section2Writer">
+        <div>
+            <img src=${writerImg}
+                alt="">
+        </div>
+        <h5>${writer},</h3>
+    </div>
+</div>`;
+  }
+};
+
+displayData();
