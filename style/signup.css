@@ -70,9 +70,15 @@ input {
 }
 
 #button {
+  cursor: pointer;
   background-color: #e0e0e0;
   border-radius: 5px;
   border: none;
+}
+
+#button:hover{
+  background-color: blue;
+  color: white;
 }
 
 #signUp {
