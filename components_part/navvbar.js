@@ -16,7 +16,7 @@ const navvbar = () => {
         </div>
         <div class="icon3">
             <img src="https://cdn1.vectorstock.com/i/1000x1000/61/10/growing-bar-graph-icon-vector-23996110.jpg" alt="error">
-            <a href="index.html">Analytics</a>
+            <a href="./html/analitics.html">Analytics</a>
             <p>Analyze social media performance and create reports</p>
         </div>
             <div class="icon4">
