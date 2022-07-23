@@ -2,7 +2,7 @@ let form = document.querySelector("#login-form");
 
 let users = JSON.parse(localStorage.getItem("users")) || [];
 
-let login = () => {
+let login = (event) => {
   event.preventDefault();
   let usrObj = {
     email: form.email.value,

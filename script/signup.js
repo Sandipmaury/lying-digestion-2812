@@ -1,12 +1,12 @@
-let form = document.querySelector("#signup-form");
+let form = document.querySelector("#form");
 let usrData = JSON.parse(localStorage.getItem("users")) || [];
 
-let signup = () => {
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
   let usrObj = {
     email: form.email.value,
     password: form.password.value,
   };
-
   if (usrObj.email == "" || usrObj.password == "") {
     alert("All feilds are required.");
   } else {
@@ -16,6 +16,4 @@ let signup = () => {
     localStorage.setItem("login", JSON.stringify(login));
     window.location.href = "../index.html";
   }
-};
-
-form.addEventListener("submit", signup);
+});
