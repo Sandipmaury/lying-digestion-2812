@@ -16,17 +16,17 @@ const navvbar = () => {
         </div>
         <div class="icon3">
             <img src="https://cdn1.vectorstock.com/i/1000x1000/61/10/growing-bar-graph-icon-vector-23996110.jpg" alt="error">
-            <a href="http://">Analytics</a>
+            <a href="index.html">Analytics</a>
             <p>Analyze social media performance and create reports</p>
         </div>
             <div class="icon4">
                 <img src="https://icons.veryicon.com/png/o/miscellaneous/monochromatic-linear-icon-for-the-project-of/send-message-3.png" alt="error">
-            <a href="http://">Engagement</a>
+            <a href="index.html">Engagement</a>
             <p>Quickly navigate your comments and engage with your audience</p>
         </div>
             <div class="icon">
                 <img src="https://www.creativefabrica.com/wp-content/uploads/2018/11/Pen-icon-by-rudezstudio.jpg" alt="error">
-            <a href="http://">Start Page</a>
+            <a href="index.html">Start Page</a>
             <p>Build a customizedlanding page in minutes</p>
         </div>
         </div>
