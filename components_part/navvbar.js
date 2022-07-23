@@ -1,5 +1,5 @@
-const navvbar=()=>{
-    return `<div id="navbar">
+const navvbar = () => {
+  return `<div id="navbar">
     <div>
     <a href="index.html"><img src="https://seekvectorlogo.net/wp-content/uploads/2020/02/buffer-inc-vector-logo.png" alt="error"></a>
     <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDgwMCI+DQo8cGF0aCBmaWxsPSIjM2E3NWM0IiBkPSJtMCwwaDEyMDB2ODAwaC0xMjAweiIvPg0KPHBhdGggZmlsbD0iI2Y5ZGQxNiIgZD0ibTAsNDAwaDEyMDB2NDAwaC0xMjAweiIvPg0KPC9zdmc+DQo=" alt="error">
@@ -11,7 +11,7 @@ const navvbar=()=>{
         <div class="dropdown-content">
             <div class="icon2">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnCXksTKNhXMhvGV-a2RWNbtFkVsyp130SzQ&usqp=CAU" alt="error">
-            <a href="http://">Publishing</a>
+            <a href="./html/ind.html">Publishing</a>
             <p>Plan,collaborate, and publish thumb-stopping content</p>
         </div>
         <div class="icon3">
@@ -31,16 +31,16 @@ const navvbar=()=>{
         </div>
         </div>
     </div>
-    <a href="http://"><p>Pricing</p></a>
-    <a href="http://"><p>Blog</p></a>
-    <a href="http://"><p>About</p></a>
-    <a href="http://"><p>Customers</p></a>
+    <a href="./pricing.html"><p>Pricing</p></a>
+    <a href="./html/blog.html"><p>Blog</p></a>
+    <a href="./about.html"><p>About</p></a>
+    <a href="./customers.html"><p>Customers</p></a>
 </div>
 <div>
-    <a href="http://">Log In</a>
-    <button><a href="http://">Get started now</a></button>
+    <a href="./html/login.html">Log In</a>
+    <button><a href="./html/signup.html">Get started now</a></button>
 </div>
 </div>
-`
-}
+`;
+};
 export default navvbar;

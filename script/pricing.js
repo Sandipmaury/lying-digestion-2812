@@ -336,3 +336,9 @@ const yearly = () => {
 </div>`;
 };
 yearly();
+
+import navbar from "../components_part/navvbar.js";
+import footer from "../components_part/footter.js";
+
+document.getElementById("head").innerHTML = navbar();
+document.getElementById("footer").innerHTML = footer();
