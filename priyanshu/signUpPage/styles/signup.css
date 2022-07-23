@@ -1,9 +1,9 @@
-/* @media queries (min-width:1250px) {
+/* @media (min-width:1250px) {
 
 } */
 
 
-body {
+#container {
     display: grid;
     grid-template-columns: 2fr 1fr;
     overflow: hidden;
@@ -140,4 +140,10 @@ input {
     width: 20%;
     margin-left: 40%;
     margin-bottom: 10px;
+}
+
+#button:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
 }

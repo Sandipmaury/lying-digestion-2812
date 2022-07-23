@@ -1,5 +1,7 @@
 let form = document.querySelector("#signup-form");
 let usrData = JSON.parse(localStorage.getItem("users")) || [];
+let button = document.querySelector("#button");
+button.disabled = false;
 
 let signup = () => {
     let usrObj = {
@@ -8,7 +10,7 @@ let signup = () => {
     }
 
     if(usrObj.email == "" || usrObj.password == ""){
-        alert("All feilds are required.")
+        alert("All fields are required.")
     }
     else{
         usrData.push(usrObj);
@@ -18,5 +20,8 @@ let signup = () => {
         window.location.href = "./index.html";
     }
 }
+
+import navvbar from '/mayuri/components/navvbar.js'
+document.getElementById('navbar').innerHTML = navvbar();
 
 form.addEventListener("submit", signup);

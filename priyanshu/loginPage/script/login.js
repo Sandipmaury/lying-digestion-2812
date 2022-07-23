@@ -25,5 +25,6 @@ let login = () => {
         })
     }
 }
-
+import navvbar from '/mayuri/components/navvbar.js'
+document.getElementById('navbar').innerHTML = navvbar();
 form.addEventListener("submit", login);
