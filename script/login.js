@@ -11,15 +11,16 @@ let login = (event) => {
   if (usrObj.email == "" || usrObj.password == "") {
     alert("All feilds are required.");
   } else {
-    users.forEach((el) => {
-      if (usrObj.email == el.email && usrObj.password == el.password) {
+    for (let { email, password } of users) {
+      if (usrObj.email == email && usrObj.password == password) {
         let login = true;
         localStorage.setItem("login", JSON.stringify(login));
         window.location.href = "../index.html";
-      } else {
-        alert("Email or Password is incorrect.");
+        return;
       }
-    });
+    }
+    alert("Email or Password is incorrect.");
+    return;
   }
 };
 
